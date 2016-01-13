@@ -1,0 +1,12 @@
+{
+  "name": "dyscribe.com",
+  "author": "Kai Birkenfeld <mail@dyscribe.com>",
+  "homepage": "https://dyscribe.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyscribe/dyscribe_blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/https://github.com/dyscribe/dyscribe_blog/issues"
+  }
+}
