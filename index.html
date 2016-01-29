@@ -1,34 +1,164 @@
----
-layout: main
-excerpt: "A complete overview of all blog articles and tutorials sorted by date."
----
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Klartexter | Rap sein Vadder! | klartexter.net </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  <li>
-      <article>
-              <div class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></div>
-              <div class="entry-image" style="background-image:url({{ site.url }}/images/{{ post.image.feature }})";>
-                <h2>
-                  <a class="entry-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                </h2>
-              </div>
-              <div class="entry-excerpt">{{ post.excerpt }}</div>
-              <div class="cta-button"><a href="{{ post.url }}">Read Full Article</a></div>
-      </article>
-  </li>
-  {% endfor %}
-</ul>
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<img src="images/avatar.png" style="width:180px;border-radius:100%;border:5px solid white;"></img>
+					<h1>Gestatten, <strong>Klartexter</strong></h1>
+					<p>
+						Ich bin Musiker & MC aus Hamburg.<br/>
+						</p>
+					<ul class="actions">
+						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:6oVNztHJaWh9WgyZVMOO4w&size=basic&theme=light" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+					</ul>
+				</div>
+			</section>
 
-<nav class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-    <a href="/" class="previous">&lang; Previous Page</a>
-    {% else %}
-    <a href="/posts/{{ paginator.previous_page }}" class="previous">&lang; Previous Page</a>
-    {% endif %}
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="/posts/{{ paginator.next_page }}" class="next">Next Page &rang;</a>
-  {% endif %}
-</nav>
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<header class="major">
+								<h2>Lorem ipsum dolor adipiscing<br />
+								amet dolor consequat</h2>
+							</header>
+							<p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+						</div>
+						<div class="6u$ 12u$(medium) important(medium)">
+							<span class="image fit"><img src="images/out-the-door.jpg" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<ul class="major-icons">
+							</ul>
+						</div>
+						<div class="6u$ 12u$(medium)">
+							<header class="major">
+								<h2>Lorem ipsum dolor adipiscing<br />
+								amet dolor consequat</h2>
+							</header>
+							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+							<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
+							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Aktuelle Projekte</h2>
+					</header>
+					<p>Hier ein paar Highlights an denen ich gerade arbeite.</p>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/teaser-klartexter.jpg" alt="" /></span>
+							<h3>Klartexter: Solo</h3>
+							<p>Im Moment arbeite ich vermehrt an Solo Tracks, die ihr </p>
+							<ul class="actions">
+								<li><a href="#" class="button">Mehr</a></li>
+							</ul>
+						</div>
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/teaser-aethermonolog.jpg" alt="" /></span>
+							<h3>Aethermonolog</h3>
+							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Mehr</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<span class="image fit"><img src="images/teaser-zwohandbreit.jpg" alt="" /></span>
+							<h3>ZwoHandBreit</h3>
+							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Mehr</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Darf es ein Geschenk sein?</h2>
+					</header>
+					<p>Trag dich in den Newsletter ein, und du bekommst einen Song geschenkt!</p>
+
+					<div class="newsletter">
+						<!-- Begin MailChimp Signup Form -->
+							<div id="mc_embed_signup">
+							<form action="http://theartofbeats.us10.list-manage.com/subscribe/post?u=51fa74881242eaa159eb6b9c0&amp;id=17f262f96a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							  <div id="mc_embed_signup_scroll">
+
+							<div class="mc-field-group">
+							<input type="email" placeholder="beispiel@mail.de" onfocus="this.placeholder = ''" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="max-width:400px;margin:auto;text-align:center;">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_51fa74881242eaa159eb6b9c0_17f262f96a" tabindex="-1" value=""></div>
+								<br/>
+							  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button special fit" style="max-width:400px;margin:auto;"></div>
+							  </div>
+							</form>
+						</div>
+
+					</div>
+
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="//twitter.com/dyscribe" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="//facebook.com/klartexter" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="//www.instagram.com/dyscribe" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-google-plus"><span class="label">Google+</span></a></li>
+					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-spotify"><span class="label">Spotify</span></a></li>
+					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-apple"><span class="label">iTunes</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2016 klartexter.net</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
