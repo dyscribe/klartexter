@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>KLARTEXTER | Hip Hop </title>
+		<title>KLARTEXTER | Rapper & Musiker aus Hamburg | klartexter.net</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="google-site-verification" content="NmtCfthAzr_CCdOPBVxnWAQWcohL2DVXvOaosg2QlLA" />
+		<meta name="description" content="Klartexter ist Rapper und Musiker aus Hamburg. Lyrik mit freshen Flows trifft auf jazzige Boom Bap Beats. Auch bekannt von ZwoHandBreit, Habitat Espressivo und dem Aethermonolog Podcast." />
+		<meta name="google" content="nositelinkssearchbox" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 		<link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
@@ -25,14 +26,35 @@
 		<meta name="msapplication-TileColor" content="#4686a0">
 		<meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#4686a0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" />
+		<script>
+		$(document).ready(function(){
+			$('a[href^="#"]').on('click',function (e) {
+			    e.preventDefault();
+
+			    var target = this.hash;
+			    var $target = $(target);
+
+			    $('html, body').stop().animate({
+			        'scrollTop': $target.offset().top
+			    }, 900, 'swing', function () {
+			        window.location.hash = target;
+			    });
+			});
+		});
+		</script>
 	</head>
 	<body>
 
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
-					<img src="images/avatar-500.jpg" style="width:150px;border-radius:100%;border:5px solid white;"></img>
-					<img src="images/klartexter-logo-white-600.png" style="width:300px;"></img>
+					<picture>
+						<img class="header-avatar" src="images/avatar.jpg" srcset="images/avatar-150.jpg 1x, images/avatar-300.jpg 2x" alt="Klartexter Avatar">
+					</picture>
+					<picture>
+						<img class="header-logo" src="images/klartexter-logo-white-300.png" srcset="images/klartexter-logo-white-300.png 1x, images/klartexter-logo-white-600.png 2x" alt="Klartexter Logo">
+					</picture>
 					<ul class="actions">
 						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:6oVNztHJaWh9WgyZVMOO4w&size=basic&theme=light" width="150" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 					</ul>
@@ -45,19 +67,23 @@
 					<div class="row 150%">
 						<div class="6u 12u$(medium)">
 							<header class="major">
-								<h2>&raquo; Bis September 2016 mache ich eine EP,<br />
-								respektive 5 - 7 einzelne Songs! &laquo;</h2>
-								<p></p>
+								<h2>Die neusten Songs: <br />
+									Jetzt als Stream und Download</h2>
 							</header>
-
 							<p>
-								Für dieses Jahr sind noch einige neue Tracks in Ladung.
+								Alle neuen Songs findest du ab sofort bei <a target="blank" href="//open.spotify.com/artist/6oVNztHJaWh9WgyZVMOO4w">Spotify</a>, <a target="blank" href="//itunes.apple.com/de/artist/klartexter/id1074278138">iTunes</a>, <a target="blank" href="//www.amazon.de/s/ref=nb_sb_noss?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=klartexter">Amazon</a>, <a target="blank" href="//play.google.com/store/music/artist/Klartexter_J%C3%A4%C3%A4n_MC_feat_S%C3%B6ren_Grieger_Hausmann?id=A5uu5r7o7e5valoe3glclliia5q">Google Play</a> & Co.
 							</p>
-								<a href="" class="badge itunes"><img src="images/itunes.svg"></a>
-								<a href="" class="badge google"><img src="images/google.png" style="border:1px solid #ccc; border-radius:5px"></a>
+								<a href="//itunes.apple.com/de/artist/klartexter/id1074278138" class="badge itunes"><img src="images/store-apple.svg"></a>
+								<a href="//play.google.com/store/music/artist/Klartexter_J%C3%A4%C3%A4n_MC_feat_S%C3%B6ren_Grieger_Hausmann?id=A5uu5r7o7e5valoe3glclliia5q" class="badge google"><img src="images/store-google.png" style="height:40px"></a>
 						</div>
 						<div class="6u$ 12u$(medium) important(medium)">
-							<span class="image fit"><img src="images/artwork-parade-3d.png" alt="" /></span>
+							<span class="image fit">
+								<picture>
+									<source srcset="images/irgendwann-cover-600.jpg, images/irgendwann-cover-1200.jpg 2x" media="(min-width: 600px)">
+									<source srcset="images/irgendwann-cover-300.jpg, images/irgendwann-cover-600.jpg 2x" media="(min-width: 300px)">
+									<img src="images/irgendwann-cover-300.jpg" srcset="images/irgendwann-cover-300.jpg 1x, images/irgendwann-cover-600.jpg 2x" alt="Diem & Klartexter - Irgendwann Single (Cover Artwork)">
+								</picture>
+							</span>
 						</div>
 					</div>
 				</div>
@@ -75,23 +101,18 @@
 							<header class="major">
 								<h2>&raquo; Band Biografien sind Scheiße! &laquo;</h2>
 							</header>
-							<p>
-								Ganz ehrlich! Ich habe einige geschrieben, und einige mehr gelesen. Band Biografien sind wie Steuererklärungen: Macht man nicht gerne. Es macht keinen Spaß. Im Gegenteil! Aber irgendjemand will sie von einem haben. Nur deswegen schreibt man sie.
-							</p>
-							<p>
-							Alle paar Jahre stelle ich fest, dass es "mal wieder" an der Zeit ist eine Bio zu schreiben oder zu aktualisieren. Für die eigene Website, für die "Über mich" Sektion von einem Online Portal oder für einen Redakteur damit Er (oder Sie) über mich schreiben kann ohne je mit mir gesprochen zu haben.
-							</p>
-							<p>
-							Aber das ist doch Scheiße! Ich bin kein Autor, ich bin Musiker! Ich will Lidtexte schreiben und keine "Über mich" Texte. Den besten Eindruck wer ich bin, was ich mache und woher ich komme vermittelt ohnehin meine Musik.  Darin steckt mein Ausdruck, meine Zeit und meine Energie.
-							</p>
-							<p>
-							An meinem Dialekt kann man hören, dass ich Hesse bin der in Hamburg lebt. In den Credits kann man lesen, mit welchen deutschen und internationalen Künstlern ich am zusammenarbeitet und gearbeitet habe.
-							Und zwischen den Zeilen steht die alte Schule aus der ich komme und die Sterne unter denen meine Zukunft steht.
-							</p>
-							<p>
-							Man muss nur richtig hinhören!
-							Und ich hoffe ich konnte dich auch ohne Band Biografie dazu einladen.
-							</p>
+								<p>
+									Alle paar Jahre stelle ich fest, dass es mal wieder Zeit ist, eine "Band Biografie" zu schreiben oder zu aktualisieren. Für die eigene Website, Facebook, YouTube oder irgendein anderes Portal. Vielleicht auch für einen Redakteur, damit Er (oder Sie) etwas über mich schreiben kann ohne je mit mir gesprochen zu haben.
+								</p>
+								<p>
+									Das Problem ist: Ich bin kein Autor, ich bin Musiker! Ich will Liedtexte schreiben und keine Band Biogroafien. Den besten Eindruck wer ich bin, was ich mache, und woher ich komme, vermittelt meine Musik. Darin steckt meine Identität, meine Zeit und meine Energie.
+								</p>
+								<p>
+									Mein Dialekt verät manchmal, dass ich Hesse bin der in Hamburg lebt. Die Credtis meiner Songs zeigen mit welchen lokalen und internationalen Künstlern ich zusammengearbeitet habe. Zwischen den Zeilen steht die Schule aus der ich komme. Und in den Texten wer ich bin, was ich mache und was ich denke.
+								</p>
+								<p>
+									Es braucht nur ein bisschen Zeit und zwei offene Ohren um <a href="#soulfood">meine Geschichte zu hören</a> - keine Band Biografie.
+								</p>
 						</div>
 					</div>
 				</div>
@@ -101,32 +122,32 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Aktuelle Projekte</h2>
+						<h2 id="soulfood">Mehr Soulfood für die Ohren</h2>
 					</header>
-					<p>Hier ein paar Highlights an denen ich gerade arbeite.</p>
+					<p>Meine Geschichte hat viele Kapitel. Hier siehst du drei wesentliche auf einen Blick.</p>
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
 							<span class="image fit"><img src="images/teaser-klartexter.jpg" alt="" /></span>
 							<h3>Klartexter: Solo</h3>
-							<p>Im Moment arbeite ich vermehrt an Solo Tracks, die ihr </p>
+							<p>Im Moment arbeite ich vermehrt an Solo Tracks, die nach und nach bei <a target="blank" href="//open.spotify.com/artist/6oVNztHJaWh9WgyZVMOO4w">Spotify</a>, <a target="blank" href="//itunes.apple.com/de/artist/klartexter/id1074278138">iTunes</a>, <a target="blank" href="//www.amazon.de/s/ref=nb_sb_noss?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=klartexter">Amazon</a> & Co. aufschlagen.</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Mehr</a></li>
+								<li><a href="https://open.spotify.com/artist/6oVNztHJaWh9WgyZVMOO4w" class="button">Mehr</a></li>
 							</ul>
 						</div>
 						<div class="4u 12u$(medium)">
 							<span class="image fit"><img src="images/teaser-aethermonolog.jpg" alt="" /></span>
 							<h3>Aethermonolog</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<p>In meinem Podcast hörst Du die Gedanken vor und hinter den Tracks. Auf iTunes abonieren, oder einfach anhören!</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Mehr</a></li>
+								<li><a href="https://itunes.apple.com/de/podcast/aethermonolog.de/id1067599238" class="button">Mehr</a></li>
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
 							<span class="image fit"><img src="images/teaser-zwohandbreit.jpg" alt="" /></span>
 							<h3>ZwoHandBreit</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<p>Meine Jungs, meine Crew, meine Band. Zusammen mit Jään, Captain und Winkler rocken wir Mics und Turntables.</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Mehr</a></li>
+								<li><a href="http://zwohandbreit.de" class="button">Mehr</a></li>
 							</ul>
 						</div>
 					</div>
@@ -137,18 +158,18 @@
 			<section id="four" class="main style2 special">
 				<div class="container">
 					<header class="major">
-						<h2>Darf es ein Geschenk sein?</h2>
+						<h2>Anmelden und gratis Song abgreifen!</h2>
 					</header>
-					<p>Trag dich in den Newsletter ein, und du bekommst einen Song geschenkt!</p>
+					<p>Trag dich in den Newsletter ein, und du bekommst als Dankeschön einen Song-Download geschenkt.</p>
 
 					<div class="newsletter">
 						<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
-							<form action="http://theartofbeats.us10.list-manage.com/subscribe/post?u=51fa74881242eaa159eb6b9c0&amp;id=17f262f96a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<form action="//klartexter.us10.list-manage.com/subscribe/post?u=51fa74881242eaa159eb6b9c0&amp;id=17f262f96a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							  <div id="mc_embed_signup_scroll">
 
 							<div class="mc-field-group">
-							<input type="email" placeholder="beispiel@mail.de" onfocus="this.placeholder = ''" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="max-width:400px;margin:auto;text-align:center;">
+							<input type="email" placeholder="beispiel@mail.de" onfocus="this.placeholder = ''" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="max-width:400px;margin:auto;text-align:center;color="#fff!important!;">
 							</div>
 							<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
@@ -172,21 +193,22 @@
 					<li><a href="//facebook.com/klartexter" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 					<li><a href="//www.instagram.com/dyscribe" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-google-plus"><span class="label">Google+</span></a></li>
-					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-spotify"><span class="label">Spotify</span></a></li>
-					<li><a href="//plus.goole.com/+KaiBirkenfeld" class="icon alt fa-apple"><span class="label">iTunes</span></a></li>
+					<li><a href="https://open.spotify.com/artist/6oVNztHJaWh9WgyZVMOO4w" class="icon alt fa-spotify"><span class="label">Spotify</span></a></li>
+					<li><a href="https://itunes.apple.com/de/artist/klartexter/id1074278138" class="icon alt fa-apple"><span class="label">iTunes</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; 2016 klartexter.net</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; 2016 klartexter.net</li>
 				</ul>
 			</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-73278268-1', 'auto');
+				ga('send', 'pageview');
+			</script>
 
 	</body>
 </html>
